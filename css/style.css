@@ -1,0 +1,27 @@
+body{
+  height: 3000px;
+}
+
+#carousel{
+  margin-bottom: 50px;
+}
+
+#home{
+  padding: 5%;
+}
+#press{
+  background-color: gray;
+}
+#press img{
+  padding: 2%;
+  margin: 2%;
+  width: 150px;
+
+}
+#footer{
+  padding: 5%;
+}
+#footer i{
+  margin: 0.5%;
+  padding: 0.5%;
+}
