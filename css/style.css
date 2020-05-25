@@ -1,14 +1,52 @@
-body{
-  height: ;
-}
+
 
 #carousel{
   margin-bottom: 50px;
 }
 
-#home{
-  padding: 5%;
+#home,#About,#Services,#Contact{
+  padding-top: 5%;
+  padding-bottom: 5%;  
+  line-height: 30px;
 }
+.parallax-container div h3{
+  font-size: 5rem;
+  font-weight: 900;
+}
+.parallax-container{
+  background-image: linear-gradient(to left,rgba(0, 0, 0, 0.253),rgba(255, 255, 255, 0.281));
+}
+#Services .services1{
+  border-radius: 70%;
+  display: inline;  
+  position: relative;  
+  float: left;
+}
+
+#Services .ofline-services{
+  border-radius: 70%;
+  display: inline;  
+  position: relative;  
+  float: left;
+}
+#press{
+  padding: 10%;
+}
+#Services p{
+  display: inline;
+  position: relative;
+}
+#Services div{
+  margin: 15%;
+}
+.about-img{
+  margin: 10px;
+  padding: 7px;
+}
+.about-img img{
+    border-radius: 70%;
+}
+
 #press{
   background-color: gray;
 }

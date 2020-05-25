@@ -18,3 +18,16 @@ $(document).ready(function(){
 
 $('.dropdown-trigger').dropdown();
         
+$('.pushpin-demo-nav').each(function() {
+  var $this = $(this);
+  var $target = $('#' + $(this).attr('data-target'));
+  $this.pushpin({
+    top: $target.offset().top,
+    bottom: $target.offset().top + $target.outerHeight() - $this.height()
+  });
+});
+      
+
+$(document).ready(function(){
+  $('.datepicker').datepicker();
+});
