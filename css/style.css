@@ -1,7 +1,6 @@
 
 
 #carousel{
-  margin-bottom: 50px;
 }
 
 #home,#About,#Services,#Contact{
@@ -16,22 +15,27 @@
 .parallax-container{
   background-image: linear-gradient(to left,rgba(0, 0, 0, 0.253),rgba(255, 255, 255, 0.281));
 }
-#Services .services1{
+#Services .services1,.ofline-services{
   border-radius: 70%;
   display: inline;  
   position: relative;  
   float: left;
-}
-
-#Services .ofline-services{
-  border-radius: 70%;
-  display: inline;  
-  position: relative;  
-  float: left;
+  width: 100px;
 }
 #press{
   padding: 10%;
 }
+
+#mens-produts div .container .row .col{
+  margin-top: 3% !important;
+  height: 310px;
+}
+
+
+#blue {
+  margin-top: 46px;
+}
+
 #Services p{
   display: inline;
   position: relative;
@@ -62,4 +66,35 @@
 #footer i{
   margin: 0.5%;
   padding: 0.5%;
+}
+@media only screen and (max-width:479px){
+  .brand-logo{
+    font-size: 1.5rem !important;
+  }
+  .parallax-container div h3{
+    font-size: 5rem !important;
+    margin-top: 100px !important
+    ;
+  }
+  #press img{
+    width: 100px;
+  }#mens-produts div .container .row .col{
+    margin-top: 5% !important;
+  }
+
+}@media only screen and (max-width:550px){
+  .brand-logo{
+    font-size: 1.5rem !important;
+  }
+  .parallax-container div h3{
+    font-size: 5rem !important;
+    margin-top: 100px !important
+    ;
+  }
+  #press img{
+    width: 100px;
+  }
+  #mens-produts div .container .row .col{
+    margin-top: 5% !important;
+  }
 }
